@@ -1,0 +1,35 @@
+h1{
+	font-family:helvetica;
+	color: black;
+}
+p{
+	color: black;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	background-image: url(back.JPG);
+	background-blend-mode: difference;
+	background-color: peru;
+}
+
+header{
+	display: flex;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+aside{
+	flex: 1;
+	overflow-y: auto;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+a{
+	color: black;
+}
